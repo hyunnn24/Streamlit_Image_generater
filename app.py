@@ -49,6 +49,7 @@ def drawing():
     else:
         st.write("API Key를 먼저 입력하세요.")
 
+page = st.sidebar.selectbox("페이지 선택", ["API", "그림"])
 
 if page == "API":
     APIINPUT()
