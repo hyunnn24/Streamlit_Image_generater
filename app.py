@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 import openai 
 import time
 from openai import OpenAI
